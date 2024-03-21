@@ -1,6 +1,6 @@
-##L_I_N_U_X__C_O_M_M_A_N_D_S##
+# L_I_N_U_X__C_O_M_M_A_N_D_S 
 
-#Linux is case sensitive remember 
+# Linux is case sensitive remember 
 sudo reboot | shutdown | init 6
 sudo apt update & upgrade -y
 To update machine       -- sudo apt update
