@@ -1,6 +1,6 @@
-# L_I_N_U_X__C_O_M_M_A_N_D_S 
+L_I_N_U_X__C_O_M_M_A_N_D_S
 
-# Linux is case sensitive remember 
+Linux is case sensitive remember 
 sudo reboot | shutdown | init 6
 sudo apt update & upgrade -y
 To update machine       -- sudo apt update
@@ -25,6 +25,9 @@ to print workingdir     -- pwd
 to check directory      -- dir 
 to check history        -- history 
 to change directory     -- cd path(/home/username/Desktop)
+Go on home dir          -- cd 
+Go to 1 dir back        -- cd ..
+goto root dir           -- /
 to list directory       -- ls or ll or ls -lh(list human readable)
 to create folder        -- mkdir file_name 
 to remove folder        -- rmdir file_name
@@ -62,7 +65,7 @@ to show PID proces      -- pidof [process_name]
 to copy file            -- cp source destination
 to move file            -- mv source destination
 to rename file          -- mv file_already file_change_name   
-to create file	        -- t ouch file_name.txt
+to create file	        -- touch file_name.txt
 to remove file          -- rm file_name.txt
 to read file in T       -- cat file_name.txt
 to read file nano       -- nano file_name.txt or ctrl+c > y(save) > Enter
@@ -71,6 +74,7 @@ to enter text i vim     -- press(i) > esc > :wq(write n quit) > :qa!(quit w/o sa
 to check mannual        -- man commands_name 
 to check ip address     -- ifconfig or ip a 
 to check route 	        -- route 
+to check traceroute     -- traceroute/ tracepath [ip]
 to check internet       -- ping 8.8.8.8
 to ping with load       -- ping 8.8.8.8 
 to checek login use     -- whoami | who
@@ -115,3 +119,64 @@ Mount a device          -- mount [device_path] [mount_point]
 mounted file systems    -- mount
 disk usage file & dir   -- du -ah
 disk partition size     -- fdisk -l	
+Generate SSH key pairs  -- ssh-keygen
+cONNECT WITH TELNET     -- telnet [host]	
+permission (rwxrwxrwx)  -- chmod 777 [file_name]
+permission (rwxr-xr-x)  -- chmod 755 [file_name]
+permission (rwxrw-rw-)  -- chmod 766 [file_name]
+change ownership        -- chown [user_name] [file_name]
+change group owner      -- chown [user_name]:[group_name] [file_name]                
+sudo service sshd start	Start SSH server daemon.
+echo 'Random sample text' > test4.txt
+
+project python on terminal
+
+
+
+Project we can change mac address many time to hide our identity  
+chnage mac address 
+sudo su 
+macchanger -c
+clear
+
+
+Project install and configure ssh 
+first  -- sudo apt install openssh-client
+second -- sudo systemctl start ssh 
+third  -- sudo ufw allow ssh 
+fourth -- sudo systemctl enable ssh 
+fifth  -- sudo useradd ssh username 
+check with cllient -- ssh username@hostname
+ 
+Project install samba server
+first --- sudo apt install samba
+second -- sudo smbpasswd -a username 
+third --- sudo ufw allow smbd
+fourth -- mkdir /home/username/Desktop
+
+Project install and running docker 
+first --- sudo apt install docker.io
+second --
+
+project Docker
+---------------------------------------------------------------------
+
+
+---------------------------------------------------------------------
+project github …or create a new repository on the command line
+echo "# websie" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:DevOopz/websie.git
+git push -u origin main
+
+…or push an existing repository from the command line
+
+git remote add origin git@github.com:DevOopz/websie.git
+git branch -M main
+git push -u origin main
+--------------------------------------------------------------------
+
+
