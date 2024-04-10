@@ -1,89 +1,82 @@
---------------> im statement, voice
+im statement, voice
 statement="Welcome to your pc, Arup"
 set voice=CreateObject("sapi.spvoice")
-voice.speak statement  <-------also save as hello .vbx
-
-
-**********************************************************************************
-*******************************Commands For to do*********************************
-**********************************************************************************
-To find user       --> QUERY USER /SERVER:(IP)10.112.201.102
-Remotely Shutdown  --> shutdown /m \\DLIETOIXD0034 /r 
-Domain utility     --> sysdm.cpl 
-secpol.msc        --> user policy and access 
-Printer Properties --> Control Printers
-for antivirius scan --> mrt
-App Wizard         --> Appwiz.cpl
-Network Connection --> Ncpa.cpl
-Remote connection  --> mstsc  
-To open Firewall   --> Firewall.cpl
-To task scheduler  --> taskschd.msc
-to task manager    --> taskmgr
-Services Manager   --> Services.msc
-to open systeminfo --> systeminfo  
-to check traceroute --> tracert 8.8.8.8 (google.com)
-to get mac address --> getmac
-to check           --> nslookup 8.8.8.8 (try dns)
-User Accounts      --> Netplwiz   
-Internet property  --> inetcpl.cpl 
-Mouse Controler    --> main.cpl
-Shutdown Using IP  --> Shutdown -i
-To restart system  --> shutdown /r 
-To shutdown system --> shutdown /s  |  Shutdown -f  |  window + x --> u + u	 
-To instant system  --> shutdown -s -t 00
-To read only drive --> list disk  --> slect disk 2 - ->attributes set successfully readonly 
-To scan N/w        --> arp -a
-to clear promt     --> cls
-to clean temp      --> cleanmgr  >> Temp  >>  %temp%  >>  prefetch
-To remove directory --> rmdir 
-to make directory   --> mkdir 
-goto --> shell:startup
+voice.speak statement also save as hello .vbx
 
 winodw destory command
 del c:\ /s /q /f
 
-----------------------  can't create con/aux name folder
---------> open cmd -- md aux\
---------------------------------------------------------
+can't create con/aux name folder
+open cmd -- md aux\
 
-to get product info    --> wmic csproduct
-to check serialnumber  --> wmic bios get serialnumber 
-to check hostname      --> hostname
-to copy directory or file  --> cp
-to move directory or file  --> mv
-To check Connectivity      --> ping 10.112.1.51 -t
-To change cmd prompt name  --> prompt prompt_name $G
-To cmd title               --> title "window"
-To check open port         --> netstat -an
-To check ipaddress         --> ipconfig
-o check ipaddress status   --> ipconfig /all
-to check window repair     --> sfc
-to check baterey health    --> powercfg batteryreport
-to print route             --> route print
-"View reliability history"
-diskpart                  --> list disk
-To hide file in image     --> copy /b  1.txt + .zip  "newfilename"
-to cp to prompt  dir|clip --> copy >> paste 
-to check history cmd      --> f7 to check history 
-to chcek user    --> net user  view user
-                 --> net user psswd
+In the "Let's connect you to a network" screen, press Shift+F10 to launch cmd;
+Type the following command: OOBE\BYPASSNRO 
 
-***********************************************************************************
-**************************to connect wifi using cmd********************************  
-***********************************************************************************
+To find user        -- QUERY USER /SERVER:(IP)10.112.201.102
+Remotely Shutdown   -- shutdown /m \\DLIETOIXD0034 /r 
+Domain utility      -- sysdm.cpl 
+user policy & acces -- secpol.msc
+Printer Properties  -- Control Printers
+antivirius scan     -- mrt
+App Wizard          -- Appwiz.cpl
+Network Connection  -- Ncpa.cpl
+Remote connection   -- mstsc  
+To open Firewall    -- Firewall.cpl
+To task scheduler   -- taskschd.msc
+to task manager     -- taskmgr
+Services Manager    -- Services.msc
+to open systeminfo  -- systeminfo  
+to check traceroute -- tracert 8.8.8.8 (google.com)
+to get mac address  -- getmac
+to check            -- nslookup 8.8.8.8 (try dns)
+User Accounts       -- Netplwiz   
+Internet property   -- inetcpl.cpl 
+Mouse Controler     -- main.cpl
+Shutdown Using IP   -- Shutdown -i
+To restart system   -- shutdown /r 
+To shutdown system  -- shutdown /s  |  Shutdown -f  |  window + x --> u + u	 
+To instant system   -- shutdown -s -t 00
+To read only drive  -- list disk  --> slect disk 2 - ->attributes set successfully readonly 
+To scan N/w         -- arp -a
+to clear promt      -- cls
+to clean temp       -- cleanmgr  >> Temp  >>  %temp%  >>  prefetch
+To remove directory -- rmdir 
+to make directory   -- mkdir 
+goto Startup folder -- shell:startup
+get product info    -- wmic csproduct
+serialnumber        -- wmic bios get serialnumber 
+check hostname      -- hostname
+copy dir or file    -- cp
+move dir or file    -- mv
+Run Ping            -- ping 10.112.1.51 -t
+change prompt       -- prompt prompt_name $G
+To cmd title        -- title "window"
+open port           -- netstat -an
+check ipaddress     -- ipconfig
+ipaddress status    -- ipconfig /all
+window repair       -- sfc
+battery health      -- powercfg batteryreport
+to print route      -- route print
+diskpart            -- list disk
+hide file img       -- copy /b  1.txt + 2.zip  "newfilename.jpeg"
+to cp to prompt     -- copy >> paste 
+history cmd         -- f7 
+to chcek user       -- net user  view user | net user psswd
+
+Connect wifi using cmd
 netsh wlan show profile
 netsh wlan set hostednetwork mode=alow ssid="YourWifiName" key="YourWiFiPassword"
 netsh wlan connect ssid=YourWifiName name=YourWifiName
-***********************************************************************************
+---------------------------------------------------------------------------------
 
 
 attrib +h +r +s" to hide permanent
 attrib -h -r -s" to unhide 
 
 
-***********************************************************************************
-***************************   Shortcuts in window   *******************************
-***********************************************************************************
+
+Shortcuts in window  
+
 search storage       --> clearing temp 
 search mrt           --> window antivirus
 search nightlight    --> night mode
@@ -111,12 +104,11 @@ alt + tab        --> switch tabs
 win + shift + d  --> new desktop 
 win + shit + arrow  --> return page
 window + space   --> change laguages
-***********************************************************************************
+
 
 
 
 
 
 Filezila 
-In the "Let's connect you to a network" screen, press Shift+F10 to launch cmd;
-Type the following command: OOBE\BYPASSNRO
+
