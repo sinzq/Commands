@@ -3,6 +3,10 @@ L_I_N_U_X__C_O_M_M_A_N_D_S
 Linux is case sensitive remember 
 sudo reboot | shutdown | init 6
 sudo apt update & upgrade -y
+
+sudo service sshd start	Start SSH server daemon.
+echo 'Random sample text' > test4.txt
+
 To update machine       -- sudo apt update
 to upgrade machine      -- sudo apt upgrade
 to install neofetch     -- sudo apt install neofetch 
@@ -125,13 +129,10 @@ permission (rwxrwxrwx)  -- chmod 777 [file_name]
 permission (rwxr-xr-x)  -- chmod 755 [file_name]
 permission (rwxrw-rw-)  -- chmod 766 [file_name]
 change ownership        -- chown [user_name] [file_name]
-change group owner      -- chown [user_name]:[group_name] [file_name]                
-sudo service sshd start	Start SSH server daemon.
-echo 'Random sample text' > test4.txt
+change group owner      -- chown [user_name]:[group_name] [file_name]     
 
 project python on terminal
-
-
+run python on terminal -- python3 file_name.py
 
 Project we can change mac address many time to hide our identity  
 chnage mac address 
