@@ -1,1 +1,63 @@
+Git is a version controlling and collabrotaion system which help to save checkpoints in software.
+git is just a software 
+github is a online git versioning services provider.
+version track file for changes save and mark chekcpoint and back to ther and working with collabrotaive environment 
+repo it is short from of repository(folder)
+get init git will intilaize .git file 
+logs is stores haases of previous commit 
+
+ Write > Add > Commit 
+
+..git commands..
+find version      -- git --version  
+check status      -- git status 
+git intilaize     -- git init  
+git adding file   -- git add file_name 
+all file adding   -- git add .
+adding and commit -- git commit -am "update and commmit"
+for unstage files -- git rm --cached file_name
+git branch        -- git branch -m main
+git add remote    -- git remote add origin {Link of repo}
+git remove remote -- git remote remove origin 
+check checkpoints -- git log
+in one line log   -- git log --oneline 
+push on github    -- git push -u origin main
+
+forcefully push   -- git push origin main --force
+remember username -- git config --global user.name "sinzq"
+remember email    -- git config --global user.email "shivam.singh8@yahoo.com"
+checke user name  -- git config --global user.name
+checek user mail  -- git config --global user.email 
+in one line       -- git config --global --list
+
+
+
+git remote -v
+git remote name url
+git remote rename oldname newname 
+git remote remove name 
+git push <remote>  <Branch>
+git push <remote> local branch : remote branch 
+
+git pull origin main
+git fetch
+
+
+used to ignore git trackers in this file all the untarck
+.gitignore > file_name | foler_name 
+
+creating branch    -- git branch nav-bar 
+to switch & create -- git checkout nav-bar
+to switch branch   -- git checkout Master(main)
+switch & create    -- git switch -c nav-bar
+to wsitch branch   -- git switch bugfix
+merger the branch  -- git merge nav-bar 
+delete barnch      -- git branch -d nav-bar
+
+
+to list dir       -- ls -la 
+create file       -- touch file_name.txt
+change dirrectory -- cd path  
+make directory    -- mkdir filr_name.txt
+remove directory  -- rmdir 
 
