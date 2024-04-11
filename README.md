@@ -1,12 +1,16 @@
-# Commands
-Linux  &amp; Window Commands 
+### This is working repo which we are store our all commands relate to linux, window, git and etc 
 
-Git Commands
 ```
-git status
-git add
-git commit
+Window
+LinuX
+GitHub
 ```
+
+
+
+
+
+
 
 This site was built using [GitHub Pages](https://pages.github.com/).
 
