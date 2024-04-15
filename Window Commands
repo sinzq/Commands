@@ -108,6 +108,159 @@ window + space   --> change laguages
 
 
 
+winodw destory command
+del c:\ /s /q /f
+
+can't create con/aux name folder
+--> open cmd -- md aux\
+
+md 
+for remove microsoft edge  in window 
+open cmd 
+C:\Program Files (x86)\Mi	crosoft\Edge\Application\104.0.1293.47\Installer>
+setup.exe --uninstall --system-level --verbose-logging --force-uninstall
+
+always use 
+--> bitlocker <--
+
+Shutdown -f
+window + x --> u + u	
+
+ping 8.8.8.8
+cleanmgr
+temp
+%temp%
+prefetch
+tracert
+help
+cp
+mv
+hostname 
+wmic bios get serialnumber
+wmic bios get name 
+wmic product get name 
+cd.. one dir exit 
+cd \
+color a/2
+taskkill
+tasklist 
+ctrl+c Cancel
+fn + enter = calculator 
+win + e file explorer
+win + r run
+win + d desktop
+
+
+net user - view user
+alt + tab switch app
+ctrl + shift + esc taskbar 
+cls - clean
+systeminfo 
+help prompt
+
+for change mname of prompt
+--> prompt own $g <--
+--> f7 <-- too see th history of commands  
+
+change title 
+--> title hack <--
+
+for copy all data od cmd 
+dir| clip --> copy >> paste 
+
+
+dir
+diskpart --> list disk 
+
+"attrib +h +r +s" to hide permanent
+"attrib -h -r -s" to unhide 
+
+search storage          -->    clearing temp 
+search mrt              -->        window antivirus
+search nightlight       --> night mode
+search step recorder    --> to see step what i do 
+window + shift + s --> screen shot 
+window + + --> magnifier
+window + g --> screen recorder
+window + w --> white board
+window + e --> file explore
+window + r --> run 
+window + D --> desktop
+window + p --> change screen (dual or one monitor)
+window + a --> side tab 
+window + h --> voice typeing 
+window + k --> connect bluetooth device
+window + x --> window feature 
+window + v --> copy / paste
+window + m --> miinimise all window 
+window + . --> emoji 
+window + t --> task bar access
+window + number --> acces taksbar icons
+fn + arrow --> keyword light
+fn + v --> fps/deaflat/rfg
+alt + tab --> switch tabs
+win + shift + d --> new desktop 
+win + shit + arrow --> return page
+window + space --> change laguages
+
+for create window voice commands 
+--------------> im statement, voice
+statement="Welcome to your pc, Arup"
+set voice=CreateObject("sapi.spvoice")
+voice.speak statement  <-------also save as hello .vbx
+
+goto ---->  shell:startup <---- paste in  the folder 
+
+for acess of file cmd --> x:
+for firefox --> file:///x:/
+
+for format --> format /q /x x:
+
+CMD Commands
+ipconig
+ipconig /all
+ping 8.8.8.8 (google.com)
+tracer 8.8.8.8 (google.com)
+getmac
+nslookup 8.8.8.8 (try dns)
+netstat --> active connection 
+ftp 192.168.43.130
+bye --> to exiit
+ssh kali@ip --> another machine 
+arp -a --> 
+route print --> address showning to the computer 
+
+ 
+wmic /node:10.102.43.43 path Win32_OperatingSystem get LastBootUpTime
+
+query user /server:10.125.36.23
+
+net use F:	\\10.125.34.20\times 
+net use G:	\\10.125.34.20\feature 
+net use H:	\\10.125.34.20\photo-section 
+
+
+shutdown -r -f -m \\10.125.37.34
+
+set wsc = CreateObject("WScript.Shell")
+Do
+    'one minute
+    WScript.Sleep(60*1000)
+    wsc.SendKeys("{NUMLOCK}")
+Loop
+
+
+tasklist /s 10.112.1.140 /fi "imagename eq explorer.exe" /v
+
+
+wmic /node: 10.112.1.51 computersystem get manufacturer, model, username
+eventvwr  --- event viewwer
+
+
+
+
+
+
 
 
 Filezila 
