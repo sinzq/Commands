@@ -124,19 +124,15 @@ start powershell.exe  -NoExit -Command ping 10.112.1.51 -t
 
 net use F:	\\10.112.1.140\Shared_Folder 
 start "server 1" ping 10.112.1.140 -t
-
+echo hello > hello.txt
+type hello.txt
+transfer data > ipmessanger
 
 
 
 
 
  
-
-
-
-
-
-
 
 
 Filezila 
