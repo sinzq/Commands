@@ -122,6 +122,8 @@ start powershell.exe  -NoExit -Command ping 10.112.1.81 -t
 start powershell.exe  -NoExit -Command ping 10.112.1.51 -t
 ############################################################
 
+net use F:	\\10.112.1.140\Shared_Folder 
+start "server 1" ping 10.112.1.140 -t
 
 
 
