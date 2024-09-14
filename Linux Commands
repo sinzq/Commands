@@ -1,4 +1,6 @@
-L_I_N_U_X__C_O_M_M_A_N_D_S
+  ================
+   linux commands
+  ================
 
 Linux is case sensitive remember 
 sudo reboot | shutdown | init 6
@@ -7,6 +9,7 @@ sudo apt update & upgrade -y
 sudo service sshd start	Start SSH server daemon.
 echo 'Random sample text' > test4.txt
 
+Run process backgr      -- nohup [command]
 To update machine       -- sudo apt update
 to upgrade machine      -- sudo apt upgrade
 to install neofetch     -- sudo apt install neofetch 
@@ -24,6 +27,9 @@ to install nethog       -- sudo apt install nethog
 to install bmon         -- sudo apt install bmon
 to install iptraf       -- sudo apt install iptraf
 to install cbm          -- sudo apt install cbm
+to install cowsay       -- sudo apt install cowsay
+to install cmartix      -- sudo apt install cmartix
+
 to check systeminfo     -- neofetch
 to print workingdir     -- pwd 
 to check directory      -- dir 
@@ -69,7 +75,7 @@ to show PID proces      -- pidof [process_name]
 to copy file            -- cp source destination
 to move file            -- mv source destination
 to rename file          -- mv file_already file_change_name   
-to create file	        -- touch file_name.txt
+to create file	         -- touch file_name.txt
 to remove file          -- rm file_name.txt
 to read file in T       -- cat file_name.txt
 to read file nano       -- nano file_name.txt or ctrl+c > y(save) > Enter
@@ -103,8 +109,7 @@ to memory status        -- vmstat
 to find package         -- whereis 
 to move cmds file       -- commands > File.txt 
 to check memory usa.    -- free
-to capture in n/w       -- nethogs 
-Run process backgr      -- nohup [command] 
+to capture in n/w       -- nethogs  
 to system information   -- uname -r
 to See kernel info      -- uname -a
 To system uptime        -- uptime 
@@ -124,7 +129,7 @@ mounted file systems    -- mount
 disk usage file & dir   -- du -ah
 disk partition size     -- fdisk -l	
 Generate SSH key pairs  -- ssh-keygen
-cONNECT WITH TELNET     -- telnet [host]	
+connect host telnet     -- telnet [host]	
 permission (rwxrwxrwx)  -- chmod 777 [file_name]
 permission (rwxr-xr-x)  -- chmod 755 [file_name]
 permission (rwxrw-rw-)  -- chmod 766 [file_name]
@@ -140,7 +145,6 @@ sudo su
 macchanger -c
 clear
 
-
 Project install and configure ssh 
 first  -- sudo apt install openssh-client
 second -- sudo systemctl start ssh 
@@ -155,15 +159,12 @@ second -- sudo smbpasswd -a username
 third --- sudo ufw allow smbd
 fourth -- mkdir /home/username/Desktop
 
-Project install and running docker 
-first --- sudo apt install docker.io
-second --
+project tmux
+first --- sudo apt install tmux
+second -- tmux new -s bob
+third --- tmux ls (to list)
+fourth -- tmux kill-session -t bob
 
-project Docker
----------------------------------------------------------------------
-
-
----------------------------------------------------------------------
 project github …or create a new repository on the command line
 echo "# websie" >> README.md
 git init
@@ -178,6 +179,3 @@ git push -u origin main
 git remote add origin git@github.com:DevOopz/websie.git
 git branch -M main
 git push -u origin main
---------------------------------------------------------------------
-
-
