@@ -128,12 +128,5 @@ echo hello > hello.txt
 type hello.txt
 transfer data > ipmessanger
 
-
-
-
-
- 
-
-
 Filezila 
 
